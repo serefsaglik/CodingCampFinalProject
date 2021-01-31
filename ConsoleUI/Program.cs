@@ -14,7 +14,7 @@ namespace ConsoleUI
                 Console.WriteLine((product.ProductName));
             }
 
-            Console.WriteLine("Merhaba Dünya!!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
