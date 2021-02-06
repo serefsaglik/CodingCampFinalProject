@@ -1,7 +1,7 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
-using Enities.Concrete;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -16,6 +16,11 @@ namespace Business.Concrete
         public ProductManager(IProductDal iProductDal)
         {
             _productDal = iProductDal;
+        }
+
+        public IEnumerable<object> GetByUnitPrice(int v1, int v2)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAll()

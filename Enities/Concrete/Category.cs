@@ -1,9 +1,9 @@
-﻿using Enities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Enities.Concrete
+namespace Entities.Concrete
 {
     //Çıplak Class Kalmasın (ÇCK)
     public class Category:IEntity

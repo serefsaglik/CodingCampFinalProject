@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    public interface IProductService
+    public interface ICategoryService
     {
-        List<Product> GetAll();
-
+        List<Category> GetAll();
+        List<Category> GetById(int categoryId);
     }
 }
